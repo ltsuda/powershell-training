@@ -1,0 +1,13 @@
+- Ler CSV com lista de empresas, codigos, URL (logo) e modelos
+- Iterar por cada linha
+    - Criar diretorio de acordo com coluna NOME
+    - Copiar .pbix padrão de acordo com o modelo para novo diretorio
+    - Renomear .pbix de acordo com coluna NOME
+    - Gerar config.csv
+        -   coluna cod_empresas
+        -   coluna url_logo
+
+Variaveis:
+
+- Diretorio padrão (origem)
+- Diretorio onde será criado arquivos das empresas
